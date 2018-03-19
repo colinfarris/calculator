@@ -1,8 +1,16 @@
-var add = function(number1, number2) {
-  return number1 + number2;
-};
 
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-var result = add(number1, number2);
-alert(result);
+
+  var bmi = function(massUnits, heightUnits) {
+    return massUnits / height ** 2 * 703;
+
+  };
+
+
+  var massUnits= parseFloat(prompt("Enter a number"));
+  var heightUnits= parseFloat(prompt("Enter a number"));
+  var result = bmi(massUnits, heightUnits);
+  alert(result);
+
+
+
+  //Convert all units to metric
