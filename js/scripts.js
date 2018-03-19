@@ -1,7 +1,7 @@
 
-
+//BMI Calculator
   var bmi = function(massUnits, heightUnits) {
-    return massUnits / height ** 2 * 703;
+    return (massUnits / height ** 2) * 703;
 
   };
 
@@ -12,5 +12,15 @@
   alert(result);
 
 
+//Fahrenheit to Celsius Calculator
 
-  //Convert all units to metric
+
+
+var celsiusToFahrenheit = function(celsius) {
+  return (celsius + 32 * (9/5));
+
+  };
+
+
+var inputCelsius=parseInt(prompt("Enter a number"));
+var farhrenheit=alert(celsiusToFahrenheit(inputCelsius));
